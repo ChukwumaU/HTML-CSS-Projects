@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chukwuma's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <style>
+        body {
+            overflow-x: hidden;
+            background-color: #152238;
+            font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        #navbar { 
+            display: flex;
+            justify-content: flex-end;
+            padding: 5px;
+            background: #111;
+            height: auto;
+            width: 98vw;
+            font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #fff;
+            position: sticky;
+        }
+
+        .nav li{
+            display: flex;
+        }
+        
+
+        section {
+            padding: 50px 0;
+        }
+
+        
+
+        section h2.section-heading {
+            font-size: 40px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        section h3.section-subheading {
+            font-size: 16px;
+            font-weight: 400;
+            font-style: italic;
+            margin-bottom: 75px;
+            text-transform: none;
+            font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        img {
+            display: block;
+            width: 44%;
+        }
+
+        p {
+            line-height: 1.75;
+            color: #FFFFFF;
+        }
+
+        a {
+            color: #FFFFFF;
+        }
+
+        h1,
+        h2,
+        p {
+            font-weight: 700;
+            font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #FFFFFF;
+            text-align: center;
+        }
+
+        a:hover {
+            color: #C0C0C0;
+        }
+
+        footer {
+            background: #111;
+            height: auto;
+            width: 98vw;
+            font-family: "Open Sans";
+            padding-top: 30px;
+            color: #fff;
+        }
+
+        .footer-content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .footer-content h4{
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 3rem;
+        }
+
+        .footer-content p{
+            max-width: 500px;
+            margin: 10px auto;
+            line-height: 28px;
+            font-size: 14px;
+
+        }
+
+        .socials{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            margin: 1rem 0 3rem 0;
+        }
+        
+        .socials li{
+            margin: 0 10px;
+        }
+
+        .socials a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .socials a i{
+            font-size: 1.1rem;
+        }
+
+        .socials a:hover i{
+            color: aqua;
+        }
+
+        .footer-bottom{
+            background: #000;
+            width: 98vw;
+            padding: 20px 0;
+            text-align: center;
+       }
+
+       .footer-bottom p{
+            font-size: 14px;
+            word-spacing: 2px;
+            text-transform: capitalize;
+       }
+
+       .footer-bottom span{
+            text-transform: uppercase;
+            opacity: .4;
+            font-weight: 200;
+       }
+
+
+</style>
+
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li>
+                <a href="#welcome-section">About</a>
+            </li>
+            <li>
+                <a href="#projects">Work</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="welcome-section">
+        <h1>
+            Hey I'm Chukwuma
+        </h1>
+        <p>a Front-End Developer</p>
+    </section>
+    <section id="projects" class="projects-section">
+        <h2 class="projects-header">These are some of my projects</h2>
+
+        <div class="projects-tile">
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project-tile">
+                <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+                    alt="project" />
+            </a>
+
+            <section id="contact">
+                <footer>
+                    <div class="footer-content">
+                        <h4>Contact Me</h4>
+                        <h5><a href="https://github.com/ChukwumaU" target="_blank" id="profile-link">Github</a></h5>
+                        <ul class="socials">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>copyright &copy;2020. designed by <span>Chukwuma Ukah</span></p>
+                    </div>
+                </footer>
+
+            </section>
+
+</body>
+
+</html>
