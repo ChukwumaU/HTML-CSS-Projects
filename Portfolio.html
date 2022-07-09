@@ -11,54 +11,38 @@
 
 <body>
     <style>
-        * { 
-            box-sizing: border-box;
-             margin: 0;
-             padding: 0;
-        }
-        
+       
+
         body {
             overflow-x: hidden;
-            background-color: #152238;
+            background-color: #05679c;
+            background-image: url("https://i.pinimg.com/originals/b1/6d/90/b16d909fa4fbf4f57c549e8a956ae81c.jpg");
+            background-repeat: no-repeat;
+            height: fit-content;
         }
-        #navbar { 
+
+        #navbar {
             display: flex;
             justify-content: flex-end;
             padding: 20px 5%;
-            background: #111;
+            background: #02436670;
             height: 60px;
             width: 99vw;
+            text-transform: none;
             font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
             color: #fff;
             position: sticky;
         }
 
-        .nav li{
+        .nav li {
             display: inline-block;
             padding: 0px 20px;
             font-size: 20px;
         }
-        
+
 
         section {
             padding: 50px 0;
-        }
-
-        
-
-        section h2.section-heading {
-            font-size: 40px;
-            margin-top: 0;
-            margin-bottom: 15px;
-        }
-
-        section h3.section-subheading {
-            font-size: 16px;
-            font-weight: 400;
-            font-style: italic;
-            margin-bottom: 75px;
-            text-transform: none;
-            font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         }
 
         img {
@@ -71,6 +55,7 @@
             line-height: 3.50;
             color: #FFFFFF;
             font-size: 27.5px;
+            text-align: left;
         }
 
         a {
@@ -83,32 +68,40 @@
             font-weight: 700;
             font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
             color: #FFFFFF;
-            text-align: center;
             line-height: 3.50;
+        }
+
+        .heading-sub h1,
+        p {
+            padding-left: 5%;
         }
 
         h1 {
             font-size: 50px;
+            text-align: left;
         }
 
         h2 {
             font-size: 30px;
+            text-align: center;
         }
 
         a:hover {
-            color: #C0C0C0;
+            color: aqua;
         }
 
         footer {
-            background: #111;
+            background: #013957;
+            margin-top: 0%;
+        
             height: auto;
             width: 99vw;
             font-family: "Open Sans";
-            padding-top: 30px;
             color: #fff;
+
         }
 
-        .footer-content{
+        .footer-content {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -116,14 +109,14 @@
             text-align: center;
         }
 
-        .footer-content h4{
-        font-size: 1.8rem;
-        font-weight: 400;
-        text-transform: capitalize;
-        line-height: 3rem;
+        .footer-content h4 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            line-height: 3rem;
         }
 
-        .footer-content p{
+        .footer-content p {
             max-width: 500px;
             margin: 10px auto;
             line-height: 28px;
@@ -131,52 +124,51 @@
 
         }
 
-        .socials{
+        .socials {
             list-style: none;
             display: flex;
             align-items: center;
             justify-items: center;
             margin: 1rem 0 3rem 0;
         }
-        
-        .socials li{
+
+        .socials li {
             margin: 0 10px;
         }
 
-        .socials a{
+        .socials a {
             text-decoration: none;
             color: #fff;
         }
 
-        .socials a i{
+        .socials a i {
             font-size: 1.1rem;
         }
 
-        .socials a:hover i{
+        .socials a:hover i {
             color: aqua;
         }
 
-        .footer-bottom{
+        .footer-bottom {
             background: #000;
             width: 98vw;
             padding: 20px 0;
             text-align: center;
-       }
+        }
 
-       .footer-bottom p{
+        .footer-bottom p {
             font-size: 14px;
             word-spacing: 2px;
             text-transform: capitalize;
-       }
+            text-align: center;
+        }
 
-       .footer-bottom span{
+        .footer-bottom span {
             text-transform: uppercase;
             opacity: .4;
             font-weight: 200;
-       }
-
-
-</style>
+        }
+    </style>
 
     <nav id="navbar" class="nav">
         <ul class="nav-list">
@@ -191,11 +183,11 @@
             </li>
         </ul>
     </nav>
-    <section id="welcome-section">
+    <section id="welcome-section" class="heading-sub">
         <h1>
             Hey I'm Chukwuma
         </h1>
-        <p>a Front-End Developer</p>
+        <p>A Front-End Developer</p>
     </section>
     <section id="projects" class="projects-section">
         <h2 class="projects-header">These are some of my projects</h2>
