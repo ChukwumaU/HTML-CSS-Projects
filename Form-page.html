@@ -6,19 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>survey-form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+
+    <link rel="stylesheet" href="/CSS/style_form.css">
 </head>
 
-<body>
-    <style>
-
-    </style>
+<body class="main-content">
+    <div class="heading-bg">
     <h1 id="title">Dunder Miflin Application Form</h1>
     <p id="description">Thank You for applying, kindly fill the form below.</p>
+    </div>
     <form id="survey-form">
         <label id="name-label">Name:</label><br>
-        <input id="name" type="text" placeholder="Enter your name" required><br>
+        <input id="name" type="text" placeholder="Enter your name" required size="60"><br>
         <label id="email-label">E-mail:</label><br>
-        <input id="email" type="email" placeholder="Enter your E-mail" required><br>
+        <input id="email" type="email" placeholder="Enter your E-mail" required size="60"><br>
         <label id="number-label">Age:</label><br>
         <input id="number" type="number" placeholder="Age" min="18" max="60" required><br>
 
@@ -29,14 +33,15 @@
             <option value="Full Time">Full Time</option>
             <option value="Prefer Not to Say">Prefer Not to Say</option>
         </select><br>
-   
+
         <label>Marital Status:</label><br>
         <input name="Marital-Status" type="radio" name="Married-Unmarried" value="Married">Married<br>
         <input name="Marital-Status" type="radio" name="Married-Unmarried" value="Unmarried">Unmarried<br>
-        
+
         <label>Which of these position(s) are you most qualified for?</label><br>
         <label><input type="checkbox" name="job positions" value="manager"> Manager</label><br>
-        <label><input type="checkbox" name="job positions" value="Asst-Reg-Manager"> Assistant to the Regional Manager</label><br>
+        <label><input type="checkbox" name="job positions" value="Asst-Reg-Manager"> Assistant to the Regional
+            Manager</label><br>
         <label><input type="checkbox" name="job positions" value="Salesman"> Paper Salesman</label><br>
         <label><input type="checkbox" name="job positions" value="Accountant"> Accountant</label><br>
         <label><input type="checkbox" name="job positions" value="Quality Assurance"> Quality Assurance</label><br>
@@ -45,11 +50,11 @@
 
         <label>Why should Dunder Miflin hire you?</label><br>
 
-<textarea id="Comments" name="Comments" rows="4" cols="80">
+        <textarea id="Comments" name="Comments" rows="4" cols="80">
 Enter your response here...
 </textarea><br>
-<input id="submit" type="submit" value="Submit">
-</form>
+        <input id="submit" type="submit" value="Submit">
+    </form>
 
 </body>
 
